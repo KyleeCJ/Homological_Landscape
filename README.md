@@ -1,2 +1,15 @@
-# Homological_Landscape
-Implementation of the Paper "Homological landscape of human brain functional sub-circuits".
+## Homological landscape of human brain functional sub-circuits
+
+This repository holds the official code for the paper [Homological landscape of human brain functional sub-circuits](https://www.biorxiv.org/content/10.1101/2023.12.22.573062v1.abstract). 
+
+### 🎯 Abstract
+Human whole-brain functional connectivity networks have been shown to exhibit both local/quasilocal (e.g., set of functional sub-circuits induced by node or edge attributes) and non-local (e.g., higher-order functional coordination patterns) properties. Nonetheless, the non-local properties of topological strata induced by local/quasilocal functional sub-circuits have yet to be addressed. To that end, we proposed a homological formalism that enables the quantification of higher-order characteristics of human brain functional sub-circuits. Our results indicated that each homological order uniquely unravels diverse, complementary properties of human brain functional sub-circuits. Noticeably, the $H_1$ homological distance between rest and motor task were observed at both whole-brain and sub-circuit consolidated level which suggested the self-similarity property of human brain functional connectivity unraveled by homological kernel. Furthermore, at the whole-brain level, the rest-task differentiation was found to be most prominent between rest and different tasks at different homological orders: i) Emotion task ($H_0$), ii) Motor task ($H_1$), and iii) Working memory task ($H_2$). At the functional sub-circuit level, the rest-task functional dichotomy of default mode network is found to be mostly prominent at the first and second homological scaffolds. Also at such scale, we found that the limbic network plays a significant role in homological reconfiguration across both task- and subject- domain which sheds light to subsequent investigations on the complex neuro-physiological role of such network. From a wider perspective, our formalism can be applied, beyond brain connectomics, to study non-localized coordination patterns of localized structures stretching across complex network fibers.
+
+### 🗄️ Data
+In our paper, we used the master data release extracted from the HCP Young Adult (HCP-YA) subject release \cite{van2012human}. Specifically, the fMRI dataset is obtained from  HCP repository (http://www.humanconnectome.org/), with Released Q3. The full release of Q3 HCP dataset has 889 subjects with complete data for all the four 3T MRI modalities following the HCP protocol. While many of them are from the same family, we only collected 100 genetically independent subjects for this study. In general, all MRI neuroimaging modalities were acquired in two different days, with two different scanning patterns (e.g., phase acquisitions: left to right or LR and right-to-left or RL).
+
+### 🤝 Acknowledgements
+Data used in this study are obtained from [HCP](http://www.humanconnectome.org/). The authors Duy Duong-Tran, Ralph Kaufmann, and Jiong Chen have contributed equally to this paper.
+
+### 📨 Maintainers
+Jiong Chen (jiongc@seas.upenn.edu)
